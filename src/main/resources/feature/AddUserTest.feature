@@ -1,7 +1,7 @@
 Feature: User Login
   I want to use this template for my feature file
 
-  Scenario: Verify admin login successful
+  Scenario: Add User successfully
     Given user navigate to orange hrm URL
     When uses enters user name as "Admin" and password as "admin123" and click on login button
     Then user should be able to see "Welcome Shri Hector" message
